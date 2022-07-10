@@ -7,12 +7,39 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/label_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Weed :D"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Gelato Exotic (12$/1g)"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/label_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Happy Weed"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/product_picture"
+        android:rotation="90"
+        app:layout_constraintBottom_toTopOf="@+id/label_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/can_cat_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

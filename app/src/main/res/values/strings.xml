@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Weed Store</string>
+    <string name="some_product_gone_heres">Some product gone heres</string>
+    <string name="happy_weed_d">Happy Weed :D</string>
+    <string name="product_picture">product_picture</string>
 </resources>
